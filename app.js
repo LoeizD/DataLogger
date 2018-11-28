@@ -23,4 +23,4 @@ function logData() {
     });
 }
 
-setInterval(logData, hourInterval * 3600)
+setInterval(logData, hourInterval * 3600 * 1000)
